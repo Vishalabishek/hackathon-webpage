@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Hack Code</title>
+    <link rel ="stylesheet"  href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body style="background-color: black;">
+        <section class="header">
+            <section class="bar">
+            <nav>
+                <a href="index.html"><img src ="logo.jpg"></a>
+                
+                <div class="nav-links" id="navlinks">
+                    
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul class = menu>
+                        <li><a href="">Home</a></li>
+                        <li><a href ="">About</a></li>
+                        <li><a href ="">Themes</a></li>
+                        <li><a href ="">Prizes</a></li>
+                        <li><a href ="">Contact</a></li>
+                    </ul>
+                    
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            </section>
+            <div class="text-box">
+                
+                <h1>A <span class="colour-change">36 Hours</span> Hackthon</h1>
+                <!--<P>Conducted By <br>Thiagarajar College Of Engineering <br> and Department Of Computer Science and Engineering</P>-->
+                <p style="font-size: 18px;">Are you ready to code, compete, and conquer?</p>
+                
+                <a href="" class="hero-btn">Click here to register</a>
+            </div>
+
+        </section>
+        <!-----Conducted By-->
+        <section class="conducted">
+            <h1>Conducted By</h1>
+
+            <div class="row">
+                <div class="conducted-col">
+                    <img src="tce_logo.jpg">
+                    <p>Thiagarajar College Of Engineering</p>
+                </div>
+                <div class="conducted-col">
+                    <img src="csilogo.png">
+                    <p>Computer Society Of India</p>
+                </div>
+                <!--<div class="course-col">
+                    <h3>intermediate</h3>
+                    <p>huvhvhughhvhuvhfu hbvbhfbhbibjvh vfjbhuhhbifnu</p>
+                </div>-->
+            </div>
+        </section>
+        <section class="campus">
+            <h1>Themes</h1>
+            <p> hhgeiugjerhghejjjhjjxjjjk</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="agri.jpg">
+                    <div class="layer">
+                        <h3>Smart Agriculture
+                        </h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="blockchain.jpg" height="100%">
+                    <div class="layer">
+                        <h3>Block Chain</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="robo.jpg">
+                    <div class="layer">
+                        <h3>Robotics</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="facilities">
+            <h1> Prizes</h1>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="1st.jpg">
+                    <h3>1st Prize</h3>
+                    <p>₹</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="2nd.jpg">
+                    <h3>2nd Prize</h3>
+                    <p>₹</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="3rd.jpg">
+                    <h3>3rd Prize</h3>
+                    <p>₹</p>
+                </div>
+            </div>
+        </section>
+        <section class="countdown">
+        <div class="countdown">
+            <h1>Countdown for Hack code : </h1>
+            <div class="timer">
+              <span id="days"></span> Days
+              <span id="hours"></span> Hours
+              <span id="minutes"></span> Minutes
+              <span id="seconds"></span> Seconds
+            </div>
+          </div>
+        </section>
+        <section class="testimonials">
+            <h1>Contact Us</h1>
+            <p>buu njumi</p>
+            <div class="row">
+                <div class="testimonials-c0l">
+                    <img src="cod3.jpeg">
+                    <div>
+                        <p>huhijokokpoooojhjkkfj uikh k hjjjk</p>
+                        <h3>mmmmmm</h3>
+                    </div>
+                </div>
+                <div class="testimonials-c0l">
+                    <img src="cod3.jpeg">
+                    <div>
+                        <p>huhijokokpoooojhjkkhhhhm kk otiy hjkkkkkkk</p>
+                        <h3>mmmmmm</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+       <!-----JavaScript for Toggle Menu -------->
+        <script src="script.js">
+            var navlinks=document.getElementById("navLinks");
+            function showMenu(){
+                navlinks.style.right = "0";
+            }
+            function hideMenu(){
+                navlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
