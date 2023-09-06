@@ -11,6 +11,10 @@
     background-size: cover;
     position: relative;
 }
+.menu {
+    font-size: 30px;
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -27,7 +31,7 @@ nav img{
 }
 .nav-links ul li{
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 30px;
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
@@ -36,7 +40,7 @@ nav img{
 .nav-links ul li a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 16px; 
+    font-size: 20px; 
 
 }
 
@@ -132,6 +136,7 @@ nav .fa{
     text-align: center;
     padding-top: 100px ;
     background-color: black;
+    margin-bottom: 100px;
 }
 h1{
     font-size: 30px;
@@ -153,12 +158,12 @@ h1{
     justify-content: space-between;
 }
 .conducted-col{
-    flex-basis: 45%;
+    flex-basis: 41%;
     background: white;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    box-sizing: border-box;
+    box-sizing:border-box;
     transition: 0.5s;
 }
 .conducted-col img {
@@ -180,11 +185,38 @@ h3{
         flex-direction:column ;
     }
 }
+
+.participate {
+    width: 100%;
+    text-align: center;
+    padding: 5px ;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.participate-col{
+    flex-basis: 41%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5%;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.participate h1 {
+    color: red;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 25px;
+    padding: 25px;
+}
+
 .campus{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 100px;
 }
 .campus-col{
     flex-basis: 32% ;
@@ -235,7 +267,7 @@ h3{
     color: white;
 }
 .facilities-col{
-    flex-basis: 31%;
+    flex-basis: 41%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: center;
@@ -276,12 +308,12 @@ h3{
     align-items: center;
     justify-content: center;
     color: white;
-    background-image: url("timeline.jpg");
+    background-image: url("blue1.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
-    min-height: 100vh;
-    padding: 100px 0;
+   
+    padding: 100px;
 }
 
 .design p {
@@ -296,18 +328,20 @@ h3{
     display: flex;
     flex-direction: column;
     background-color: black;
-    opacity: 75%;
+    opacity: 100%;
+    padding: 25px;
 }
 
-.timeline-text {
+/*.timeline-text {
     background-color: black;
     width: 80%;
     height: auto;
     max-width: 800px;
     text-align: center;
-    opacity: 75%;
+    opacity: 100%;
+    padding: 25px;
     
-}
+}*/
 
 .timeline-content {
     padding: 20px;
@@ -363,7 +397,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #fff3f3;
+    background: #f7f5f5;
     padding: 25px;
     cursor: pointer;
     display:flex;
