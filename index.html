@@ -13,8 +13,9 @@
         <link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
     </head>
     <body style="background-color: black;">
-        <section class="header">
+        <section class="header" id="Home">
             <section class="bar">
+                <section class="bar-text">
             <nav>
                 <a href="index.html"><img src ="logo.jpg"></a>
                 
@@ -22,39 +23,45 @@
                     
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul class = menu>
-                        <li><a href="">Home</a></li>
-                        <li><a href ="">About</a></li>
-                        <li><a href ="">Themes</a></li>
-                        <li><a href ="">Prizes</a></li>
-                        <li><a href ="">Contact</a></li>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href ="#About">About</a></li>
+                        <li><a href ="#Rules">Rules</a></li>
+                        <li><a href ="#Themes">Themes</a></li>
+                        <li><a href ="#Prizes">Prizes</a></li>
+                        <li><a href ="#Faq">FAQs</a></li>
+                        <li><a href ="#Contact">Contact</a></li>
                     </ul>
                     
                 </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
+                </section>
             </section>
+            <section>
             <div class="text-box">
                 
-                <h1>A <span class="colour-change">36 Hours</span> Hackathon</h1>
+                <h1>A 36 Hours Hackathon</h1>
                 <!--<P>Conducted By <br>Thiagarajar College Of Engineering <br> and Department Of Computer Science and Engineering</P>-->
                 <p style="font-size: 18px;">Are you ready to code, compete, and conquer?</p>
                 
-                <a href="https://forms.gle/LxP29jJQS3rNTkaM9" class="hero-btn">Click here to register</a>
+                <a href="registration form/registration.html" class="hero-btn">Click here to register</a>
             </div>
-
+            </section>
         </section>
         <!-----Conducted By-->
-        <section class="conducted">
+        <section class="conducted" id="About">
             <h1>Organising Partners</h1>
 
             <div class="row">
                 <div class="conducted-col">
                     <img src="tce_logo.jpg">
-                    <p>Thiagarajar College Of Engineering</p>
+                    <p style="font-size: 20px;"><big>Thiagarajar College Of Engineering</big></p>
+                    <p>TCE was ranked 85 among engineering colleges in India by the National Institutional Ranking Framework (NIRF) in 2022 and 151–200 band overall.</p>
                 </div>
                 <div class="conducted-col">
                     <img src="csilogo.png">
-                    <p>Computer Society Of India</p>
+                    <p style="font-size: 20px;"><big>Computer Society Of India</big></p>
+                    <p>The seed for the Computer Society of India (CSI) was first shown in the year 1965 with a handful of IT enthusiasts who were a computer user group and felt the need to organize their activities.</p>
                 </div>
                 <!--<div class="course-col">
                     <h3>intermediate</h3>
@@ -62,15 +69,16 @@
                 </div>-->
             </div>
         </section>
-        <section class="participate">
+        <section class="participate" id="Rules">
             <div class="participate-col">
-                <h1><b>Eligibility</b></h1>
+                <h1><b>Rules and Eligibility</b></h1>
                 <p style="font-size: 20px; color: black;">Students pursuing any UG/PG degrees can participate in this 36 hours hackathon.</p>
-
-                <p style = "font-size: 20px; color: black;">Team size can be 2-4 members.</p>
+                <p style = "font-size: 20px; color: black;">Team size can be 2-5 members.</p>
+                <p style = "font-size: 20px; color: black;">Atleast one girl participants.</p>
+                <p style = "font-size: 20px; color: black;">All the Team Members Should be present at the venue.</p>
             </div>
         </section>
-        <section class="campus">
+        <section class="campus"id="Themes">
             <h1>Themes</h1>
             <p>...</p>
             <p style = "color: white; font-size: 20px;"> No problem is too big ....  No idea is too small</p>
@@ -78,8 +86,7 @@
                 <div class="campus-col">
                     <img src="agri.jpg">
                     <div class="layer">
-                        <h3>Smart Agriculture
-                        </h3>
+                        <h3>Smart Agriculture</h3>
                     </div>
                 </div>
                 <div class="campus-col">
@@ -116,6 +123,13 @@
                 </div>
             </div>
         </section>-->
+        <section class="cta" id="Prizes">
+            <h1 style="color: red;">Prizes</h1>
+            <h3 style="color: white; padding-bottom: 10px;">Totally 2 Lakhs Prizes to be Won</h3>
+            <a <href="" class="hero-btn">View More</a>
+            
+        </section>
+
         <section class="countdown">
         <div class="countdown">
             <h1>Countdown for Hack code : </h1>
@@ -161,6 +175,7 @@
                 </div>   
             </div>
         </section>
+        <!--
         <section class="testimonials">
             <h1>Contact Us</h1>
             <p>buu njumi</p>
@@ -171,7 +186,7 @@
                         <h3>mmmmmm</h3>
                     </div>
                 </div>
-                <!--<div class="testimonials-c0l">
+                <div class="testimonials-c0l">
                     <img src="cod3.jpeg">
                     <div>
                         <p>huhijokokpoooojhjkkhhhhm kk otiy hjkkkkkkk</p>
@@ -181,6 +196,87 @@
             </div>
 
         </section>
+    </section>
+    <!------call to action-->
+    <section class="faq" id="Faq">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+
+            <div class="faq-item">
+                <div class="faq-question">1.When is the kick off date?</div>
+                <div class="faq-answer">
+                    30th September 2023
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    2. How long is the hackathon running for?</div>
+                <div class="faq-answer">
+                    This is a 2 days hackathon
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">3. Who can participate?Are there any prerequisites or required skills?</div>
+                <div class="faq-answer">
+                    Not entirely but a little coding language and knowledge about the themes would be sufficient! You can ace it! 
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    4. Is there a maximum size for each team ?</div>
+                <div class="faq-answer">
+                    Yes,A team can hold up to 5 members
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">5. Is there support available?</div>
+                <div class="faq-answer">
+                    Yes, definitely! This hackathon is designed in such a way every participants will use it as a platform to gain knowledge and new skills. 
+                </div>
+            </div>
+
+            
+
+            <!-- Add more FAQ items as needed -->
+        </div>
+    </section>
+
+    <section class="aboutus" id="Contact">
+        <h1 style="text-align: center; margin-top: 50px;">About Us</h1>
+
+        <div class="rowabt">
+            <div class="conducted-abt">
+                <img src="profile.jpg" class="img-c">
+                <p style="font-size: 20px; text-align: center;"><big>Atchaya L</big></p>
+                <p style="text-align: center;">9080887499</p>
+                <p style="text-align: center;">atchayal@student.tce.edu</p>
+            </div>
+            <div class="conducted-abt">
+                <img src="profile.jpg" class="img-c">
+                <p style="font-size: 20px; text-align: center;"><big>Niranchana S</big></p>
+                <p style="text-align: center;">9629877001</p>
+                <p style="text-align: center;">niranchana@student.tce.edu</p>
+            </div>
+            <div class="conducted-abt">
+                <img src="profile.jpg" class="img-c">
+                <p style="font-size: 20px; text-align: center;"><big>Priyanka S</big></p>
+                <p style="text-align: center;">6379172284</p>
+                <p style="text-align: center;">spriyanka1@student.tce.edu</p>
+            </div>
+            <div class="conducted-abt">
+                <img src="profile.jpg" class="img-c">
+                <p style="font-size: 20px; text-align: center;"><big>Vishal Abishek G</big></p>
+                <p style="text-align: center;">7418046813</p>
+                <p style="text-align: center;">vishalabishek@student.tce.edu</p>
+            </div>
+            
+        </div>
+    </section>
+
        <!-----JavaScript for Toggle Menu -------->
         <script src="script.js">
             var navlinks=document.getElementById("navLinks");

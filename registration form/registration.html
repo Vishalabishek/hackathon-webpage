@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
+    <style>
+        body{
+            margin: 0px;
+            background: #e7be6de0;
+        }
+        #main{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        #character{
+            width: 345px;
+            position: absolute;
+            bottom: 0px;
+            right: 150px;
+        }
+        #object1{
+            width: 100px;
+            position: absolute;
+            top: 400px;
+            right: 450px;
+        }
+        #object2{
+            width: 100px;
+            position: absolute;
+            top: 400px;
+            right:100px;
+            z-index: -1;
+        }
+        #object3{
+            width: 50px;
+            position: absolute;
+            top: 600px;
+            right: 200px;
+        }
+        layer{
+            position: absolute;
+            top:0px;
+            left: 0px;
+            width: 100px;
+            height: 100%;
+        }
+    </style>
+    <script src="https://ajex.googlapis.com/ajex/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="theme">Theme:</label>
+                <input type="text" id="theme" name="theme" required>
+            </div>
+            <div class="form-group">
+                <label for="team-name">Team Name:</label>
+                <input type="text" id="team-name" name="team-name" required>
+            </div>
+            <div class="form-group">
+                <label for="team-size">Team Size:</label>
+                <input type="number" id="team-size" name="team-size" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+        <div id="obj">
+            <img src="toy.png"id="character"/>
+            <img src="obj.png" id="object1"/>
+            <img src="ob2.png" id="object2"/>
+            <img src="obj4.png" id="object3"/>
+            <div id="layer"></div>
+        </div>
+    </div>
+    <script src="registration.js"></script>
+</body>
+
+</html>
